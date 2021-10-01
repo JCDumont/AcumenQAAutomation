@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
-import { UserService } from 'src/app/services/user/user.service';
+import { UserService } from '../../../services/user/user.service';
 
 @Component({
   selector: 'app-user-overview-page',

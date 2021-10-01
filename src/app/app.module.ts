@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 import { BrowserModule } from '@angular/platform-browser';
-import { MenuService } from 'src/app/services/menu/menu.service';
+import { MenuService } from './services/menu/menu.service';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 

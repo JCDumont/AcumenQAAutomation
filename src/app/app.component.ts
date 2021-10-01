@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
-import { MenuService } from 'src/app/services/menu/menu.service';
+import { MenuService } from './services/menu/menu.service';
 
 @Component({
   selector: 'app-root',
